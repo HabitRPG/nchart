@@ -1,3 +1,5 @@
+**NOTE**: forked by @paglias to allow `chart.destroy()`, used in `habitrpg-email-server` repo
+
 nchart
 ======
 
