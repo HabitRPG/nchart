@@ -896,13 +896,13 @@
 			canvas.height = this.chart.height;
 
 			// < IE9 doesn't support removeProperty
-			if (canvas.style.removeProperty) {
+			/*if (canvas.style.removeProperty) {
 				canvas.style.removeProperty('width');
 				canvas.style.removeProperty('height');
 			} else {
 				canvas.style.removeAttribute('width');
 				canvas.style.removeAttribute('height');
-			}
+			}*/
 
 			delete Chart.instances[this.id];
 		},
